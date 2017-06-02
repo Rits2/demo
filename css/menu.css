@@ -1,0 +1,33 @@
+.menu ul{
+	list-style-type: none;
+    background-color: rgba(181, 189, 185, 0.75);
+    height: 45px;
+    /* margin: 65px; */
+   margin-left: 267px;
+    margin-right: -147px;
+    padding: 2px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.menu ul li a{
+	
+	color:black;
+	display: block;
+	text-decoration: none;	
+
+}
+.menu ul li a:hover{
+	background-color: green;
+	}
+
+.menu ul li{
+	    float: left;
+    width: 97px;
+    line-height: 41px;
+    text-align: center;
+    border-right: 2px solid #fff;
+	
+
+}

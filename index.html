@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+
+
+
+    <!--pai chart-->
+    <script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		title:{
+			text: "Top Categories of New Year's Resolution"
+		},
+		exportFileName: "Pie Chart",
+		exportEnabled: true,
+                animationEnabled: true,
+		legend:{
+			verticalAlign: "bottom",
+			horizontalAlign: "center"
+		},
+		data: [
+		{       
+			type: "pie",
+			showInLegend: true,
+			toolTipContent: "{name}: <strong>{y}%</strong>",
+			indexLabel: "{name} {y}%",
+			dataPoints: [
+				{  y: 35, name: "Health", exploded: true},
+				{  y: 20, name: "Finance"},
+				{  y: 18, name: "Career"},
+				{  y: 15, name: "Education"},
+				{  y: 5,  name: "Family"},
+				{  y: 7,  name: "Real Estate"}
+			]
+	}
+	]
+	});
+	chart.render();
+}
+</script>
+<script type="text/javascript" src="canvasjs.min.js"></script>
+<!--pai chart over-->
+
+</head>
+<body>
+
+<!--Header-->
+<div class="container-fluid" style="background-color: #e9eae3";>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-lg-4">
+				<div>
+					<img src="images/pic.jpg" class="logo">
+				</div>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-lg-8">
+			<div class="menu">
+				 <ul>
+				 	<li><a href="#">Home</a></li>
+				 	<li><a href="#">Portfolio</a></li>
+				 	<li><a href="#">Services</a></li>
+				 	<li><a href="#">About Us</a></li>
+				 	<li><a href="#">Contact</a></li>	
+				 </ul>
+			</div>
+	    </div>
+	</div>
+</div>
+<div class="container-fluid">
+<div id="cssSlider">
+  <div id="sliderImages">
+		<img id="si_1" src="http://f.cybrox.eu/codepen/slider/slide1.jpg" alt="" />
+		<img id="si_2" src="http://f.cybrox.eu/codepen/slider/slide2.jpg" alt="" />
+		<img id="si_3" src="http://f.cybrox.eu/codepen/slider/slide3.jpg" alt="" />
+		<img id="si_4" src="http://f.cybrox.eu/codepen/slider/slide4.jpg" alt="" />
+		<img id="si_5" src="http://f.cybrox.eu/codepen/slider/slide5.jpg" alt="" />
+		<div style="clear:left;"></div>
+	</div>
+</div>
+</div>
+<!-- Body-->
+
+<div class="container">
+		
+			<div class="col-md-12 col-xs-12 ">
+				<div class="hed">
+					<img src="images/port.png"  style="display: block; width: 35px; height: 35px; margin-top: 35px;">
+					<h1 style="margin-top: -40px; margin-left: 40px;">portfolio</h1>
+				<div class="con" style="font-size: 20px;color: black;text-align: center";>	
+					<p>Curabitur quis tellus in eros rutrum dapibus. Curabitur non eros congue arcu consectetur semper id et urna. Integer scelerisque, felis nec tincidunt eleifend, neque ipsum consectetur arcu, accumsan frisngilla libero leo venenatis tellus. In hac habitasse platea dictumst. </p>
+				</div>	
+				</div>
+			
+			</div>		
+</div>
+
+<div class="container">
+		
+			<div class="col-md-3">
+				<div class="box1" style="height: auto;width: 240px;">
+				<div><img src="images/4.png"  style="display: block;"></div>
+
+				 </div>
+			</div>
+			<div class="col-md-3">
+				<div class="box2" style="height: auto;width: 240px;">
+				<div><img src="images/4.png" style="display: block;"></div>
+				 
+				 </div>
+			</div>
+			<div class="col-md-3">
+			<div class="box3" style="height: auto;width: 240px;">
+				<div><img src="images/4.png" style="display: block;"></div>
+				 	
+				 </div>
+			</div>
+			<div class="col-md-3">
+				<div class="box4" style="height: auto;width: 240px;">
+				<div><img src="images/4.png" style="display: block;"></div>
+				 	
+				 </div>
+			</div>
+		
+	</div>
+				
+
+<div class="container">
+	<div class="col-md-12 col-xs-12" style="font-size: 30px;text-align: center;">
+	Services
+	</div>
+</div>
+
+
+<div class="container">
+		
+			<div class="col-md-3">
+				<div class="icon1" ><img src="images/01.jpg" height="100px" width="100px" style="display: block; "></div>
+
+				<div class="p1"  style="font-size: 18px;text-align: center;font-family: arial;padding-top: 10px;">
+				Package Design
+				</div>
+				<div class="s">
+					<h4><p>prasent erat anteport hanip,</br>
+						condimentum quis facilisisac</br>
+						condimentum in ipsum.
+					</h4>
+				</div>
+				<div class="button" style="margin-left: 60px;">
+					<input type="button" value="View Details" >
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="icon2" ><img src="images/02.jpg" height="100px" width="100px" style="display: block; "></div>
+
+				<div class="p2"  style="font-size: 18px;text-align: center;font-family: arial; padding-right: 18px; margin-top:10px;">
+				Web Design
+				</div>
+				<div class="s">
+					<h4><p>Duis Quam ipsum,pharetranec</br>
+						iaculis non,laoreet et numc.Ut</br>
+						luctus justo velerat lacinia.
+					</h4>
+				</div>
+				<div class="button" style="margin-left: 60px;">
+					<input type="button" value="View Details" >
+				</div>
+			</div>
+			<div class="col-md-3">
+			<div class="icon3" ><img src="images/03.jpg" height="100px" width="100px" style="display: block; "></div>
+				<div class="p3"  style="font-size: 18px;text-align: center;font-family: arial;padding-right: 20px; margin-top: 10px;">
+				E-Commerce
+
+				</div>
+				<div class="s">
+					<h4><p>Sed sit amet tortor vet risus</br>
+						   volutpat pretium non at estar,</br>
+						   Maecenas vitae lectus motes.
+						</h4>
+				</div>
+				<div class="button" style="margin-left: 60px;">
+					<input type="button" value="View Details" >
+				</div>
+				
+				
+			</div>
+			<div class="col-md-3">
+				<div class="icon4" ><img src="images/04.jpg" height="100px" width="100px" style="display: block;"></div>
+
+				<div class="p4"  style="font-size: 18px;text-align: center;font-family: arial; padding-right: 22px; margin-top:10px;">
+				Full Spport
+				</div>
+				<div class="s">
+					<h4><p>Curarbitur nulla antenow</br>&nbps
+						 ullamcorper eu iaculis utar</br>
+						 convallis ac massa.
+					</h4>
+				</div>
+
+				<div class="button" style="margin-left: 60px;">
+					<input type="button" value="View Details" >
+				</div>
+				
+			</div>
+	
+	</div>
+				
+<div class="space">
+</div>
+
+
+<!--content of about us-->
+<div class="container">
+		
+			<div class="col-md-8 col-xs-8 ">
+				<div class="about">
+					<img src="images/about.png"  style="display: block; width: 35px; height: 35px; margin-top: 35px;">
+					<h1 style="margin-top: -40px; margin-left: 45px;">About Us</h1>
+				<div class="con" style="font-size: 20px;color: black;text-align: center";>	
+					<p>Curabitur quis tellus in eros rutrum dapibus. Curabitur non eros congue arcu consectetur semper id et urna. Integer scelerisque, felis nec tincidunt eleifend, neque ipsum consectetur arcu, accumsan frisngilla libero leo venenatis tellus. In hac habitasse platea dictumst.
+					</br>
+					<p>
+					Some of the About Us pages I am about to show you will make you weep because they are so beautiful. Some not so much. But it is important to note that I haven’t included any pages on here purely because they look nice. This last dot point is all about that Blue-Shirt Trust; as long as the design doesn’t detract from the message I’m cool with however it looks.</p>
+				</div>	
+				</div>
+			
+			</div>	
+
+			<div class="col-md-4 col-xs-4">
+				<div class="statistics" style="background-color: #e9eae3">
+					<img src="images/statistics.png"  style="display: block; width: 35px; height: 35px; margin-top: 35px;">
+					<h1 style="margin-top: -40px; margin-left: 45px;">Statistics</h1>
+
+					<div id="chartContainer" style="height: 300px; width: 100%; color:#e9eae3;"></div>
+			</div>	
+</div>
+</div>
+<div class="space">
+</div>
+<!--footer-->
+<div class="container-fluid" style="background-color:#2a4d79;height:auto";>
+	<div class="col-xs-6 col-sm-4">
+		<div class="s2" style="margin-left:20px";>
+
+			<div class="r1" style="margin-top:30px;font-size:26px;color:white";>Recent Posts</div>
+			
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white";>We provide the best Quality of products to you.</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white";>We are always here to help our lovely customers.</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white";>We ship our products anywhere with more secure.</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white";>Advance crop care is really excellent site for crop care. </p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white";>I am very happy with the Advance crop care products.</p></i><br/>
+	</div>
+</div>
+
+	<div class="col-xs-6 col-sm-4">
+		<div class="s1" style="margin-left:120px;">
+			<div class="r1" style="margin-top:30px;font-size:26px;color:white";>Archives</div>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white;font-size:17px";>January 2010</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white;font-size:17px";>February 2010</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white;font-size:17px";>March 2010</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white;font-size:17px";>April 2010</p></i><br/>
+			<i class="glyphicon glyphicon-ok" style="color:green";><p style="float:right;margin-left:10px;color:white;font-size:17px";>May 2010</p></i><br/>
+		</div>	
+		
+	</div>
+	<div class="col-xs-6 col-sm-4">
+		<div class="s3" style="margin-left:76px;">
+			<div class="r1" style="margin-top:30px;font-size:26px;color:white";>Contacts</div>
+			<div class="row">
+
+                <div class="row">
+                    <input type="text" class="" name="name" id="name" placeholder="Name (required)">
+                </div><br/>
+
+                <div class="row">
+                     <input type="email" class="" name="email" id="email" placeholder="E-mail (required)">
+                </div><br/>
+                            
+                <div class="row">
+                     <input type="text" class="" name="Phone" id="Phone" placeholder="Contact no">
+                </div><br/>
+
+                <div class="row">
+                     <textarea name="message" id="message" class="" placeholder="Messege (required)"></textarea>
+                </div><br/>
+            </div>
+        </div>
+	</div>
+</div>
+
+		<div class="container-fluid" style="background-color:hsla(210, 16%, 28%, 0.98); display:block;height:70px";>
+			<div class="col-xs-6 col-sm-4">
+				<p style="font-size:20px;margin-left: 145px;color:white;line-height:68px";>copyright 2017 all right resreved</p>
+			</div>
+			<div class="col-xs-6 col-sm-4"  >
+				
+			</div>	
+		</div>
+
+
+</body>
+</html>

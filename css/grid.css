@@ -1,0 +1,22 @@
+.container{
+	width: 100%;
+	height:auto;
+	display: table;
+}
+.row{
+	width: 960px;
+	margin: 0px auto;
+	height: auto;
+}
+.col-1{width: 80px;float: left;height: auto}
+.col-2{width: 160px;float: left;height: auto}
+.col-3{width: 240px;float: left;height: auto}
+.col-4{width: 320px;float: left;height: auto}
+.col-5{width: 400px;float: left;height: auto}
+.col-6{width: 480px;float: left;height: auto}
+.col-7{width: 560px;float: left;height: auto}
+.col-8{width: 640px;float: left;height: auto}
+.col-9{width: 720px;float: left;height: auto}
+.col-10{width: 800px;float: left;height: auto}
+.col-11{width: 880px;float: left;height: auto}
+.col-12{width: 960px;float: left;height: auto}

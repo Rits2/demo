@@ -1,0 +1,144 @@
+
+#cssSlider {
+  width: 800px;
+	height: 300px;
+	overflow: hidden;
+	border: 10px solid #666;
+	margin-left: 100px;
+}
+
+#sliderImages {
+	width : 4000px;
+	height: 300px;
+	overflow: hidden;
+	
+	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+	animation: slide 16s infinite;
+	-moz-animation: slide 16s infinite;
+	-webkit-animation: slide 16s infinite;
+	-o-animation: slide 16s infinite;
+}
+
+#sliderImages img {
+	float: left;
+}
+
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	97%{margin-left: -3200px;}
+	100%{margin-left: 0px;}
+}
+
+@-moz-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+@-webkit-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+@-o-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+
+
+
+
+.v1{
+	font-size: 10px;
+	color: blue;
+}
+
+.content{
+	font: arial;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	margin-left: 10px;
+	padding: 10px;
+}
+.logo{
+
+	display: block; 
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+
+}
+
+.icon1{
+
+    padding-top: 50px;
+   height: auto;
+   padding-left: 70px;
+
+}
+.icon2{
+ padding-top: 50px;
+   height: auto;
+    padding-left: 70px;
+}
+.icon3{
+padding-top: 50px;
+   height: auto;
+    padding-left: 70px;
+}
+.icon4{
+ padding-top: 50px;
+   height: auto;
+    padding-left: 70px;
+}
+.space
+{
+	margin-top: 30px;
+}
+.s 
+{
+	text-transform: none;
+	text-decoration: none;
+	font-family: poor  richards;
+}
+.button
+{
+
+}
+.button:hover
+{
+	color: darkgray;
+}
